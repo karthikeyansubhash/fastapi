@@ -1,0 +1,271 @@
+{
+    ".copier": {
+        "update_dotenv.py": "file"
+    },
+    ".env": "file",
+    ".pre-commit-config.yaml": "file",
+    "CONTRIBUTING.md": "file",
+    "README.md": "file",
+    "compose.override.yml": "file",
+    "compose.traefik.yml": "file",
+    "compose.yml": "file",
+    "copier.yml": "file",
+    "deployment.md": "file",
+    "development.md": "file",
+    "package.json": "file",
+    "pyproject.toml": "file",
+    "release-notes.md": "file",
+    ".github": {
+        "dependabot.yml": "file",
+        "labeler.yml": "file",
+        "workflows": {
+            "add-to-project.yml": "file",
+            "deploy-production.yml": "file",
+            "deploy-staging.yml": "file",
+            "detect-conflicts.yml": "file",
+            "guard-dependencies.yml": "file",
+            "issue-manager.yml": "file",
+            "labeler.yml": "file",
+            "latest-changes.yml": "file",
+            "playwright.yml": "file",
+            "pre-commit.yml": "file",
+            "smokeshow.yml": "file",
+            "test-backend.yml": "file",
+            "test-docker-compose.yml": "file",
+            "zizmor.yml": "file"
+        }
+    },
+    ".vscode": {
+        "extensions.json": "file",
+        "launch.json": "file"
+    },
+    "backend": {
+        "Dockerfile": "file",
+        "README.md": "file",
+        "pyproject.toml": "file",
+        "app": {
+            "__init__.py": "file",
+            "backend_pre_start.py": "file",
+            "crud.py": "file",
+            "initial_data.py": "file",
+            "main.py": "file",
+            "models.py": "file",
+            "tests_pre_start.py": "file",
+            "utils.py": "file",
+            "alembic": {
+                "env.py": "file",
+                "versions": {
+                    "1a31ce608336_add_cascade_delete_relationships.py": "file",
+                    "9c0a54914c78_add_max_length_for_string_varchar_.py": "file",
+                    "d98dd8ec85a3_edit_replace_id_integers_in_all_models_.py": "file",
+                    "e2412789c190_initialize_models.py": "file",
+                    "fe56fa70289e_add_created_at_to_user_and_item.py": "file"
+                }
+            },
+            "api": {
+                "__init__.py": "file",
+                "deps.py": "file",
+                "main.py": "file",
+                "routes": {
+                    "__init__.py": "file",
+                    "items.py": "file",
+                    "login.py": "file",
+                    "private.py": "file",
+                    "users.py": "file",
+                    "utils.py": "file"
+                }
+            },
+            "core": {
+                "__init__.py": "file",
+                "config.py": "file",
+                "db.py": "file",
+                "security.py": "file"
+            }
+        },
+        "scripts": {
+            "format.sh": "file",
+            "lint.sh": "file",
+            "prestart.sh": "file",
+            "test.sh": "file",
+            "tests-start.sh": "file"
+        },
+        "tests": {
+            "__init__.py": "file",
+            "conftest.py": "file",
+            "api": {
+                "__init__.py": "file",
+                "routes": {
+                    "__init__.py": "file",
+                    "test_items.py": "file",
+                    "test_login.py": "file",
+                    "test_private.py": "file",
+                    "test_users.py": "file"
+                }
+            },
+            "crud": {
+                "__init__.py": "file",
+                "test_user.py": "file"
+            },
+            "scripts": {
+                "__init__.py": "file",
+                "test_backend_pre_start.py": "file",
+                "test_test_pre_start.py": "file"
+            },
+            "utils": {
+                "__init__.py": "file",
+                "item.py": "file",
+                "user.py": "file",
+                "utils.py": "file"
+            }
+        }
+    },
+    "frontend": {
+        ".env": "file",
+        "Dockerfile": "file",
+        "README.md": "file",
+        "biome.json": "file",
+        "components.json": "file",
+        "openapi-ts.config.ts": "file",
+        "package.json": "file",
+        "playwright.config.ts": "file",
+        "tsconfig.build.json": "file",
+        "tsconfig.json": "file",
+        "tsconfig.node.json": "file",
+        "vite.config.ts": "file",
+        "src": {
+            "client": {
+                "core": {
+                    "ApiError.ts": "file",
+                    "ApiRequestOptions.ts": "file",
+                    "ApiResult.ts": "file",
+                    "CancelablePromise.ts": "file",
+                    "OpenAPI.ts": "file",
+                    "request.ts": "file"
+                },
+                "index.ts": "file",
+                "schemas.gen.ts": "file",
+                "sdk.gen.ts": "file",
+                "types.gen.ts": "file"
+            },
+            "components": {
+                "Admin": {
+                    "AddUser.tsx": "file",
+                    "DeleteUser.tsx": "file",
+                    "EditUser.tsx": "file",
+                    "UserActionsMenu.tsx": "file",
+                    "columns.tsx": "file"
+                },
+                "Common": {
+                    "Appearance.tsx": "file",
+                    "AuthLayout.tsx": "file",
+                    "DataTable.tsx": "file",
+                    "ErrorComponent.tsx": "file",
+                    "Footer.tsx": "file",
+                    "Logo.tsx": "file",
+                    "NotFound.tsx": "file"
+                },
+                "Items": {
+                    "AddItem.tsx": "file",
+                    "DeleteItem.tsx": "file",
+                    "EditItem.tsx": "file",
+                    "ItemActionsMenu.tsx": "file",
+                    "columns.tsx": "file"
+                },
+                "Pending": {
+                    "PendingItems.tsx": "file",
+                    "PendingUsers.tsx": "file"
+                },
+                "Sidebar": {
+                    "AppSidebar.tsx": "file",
+                    "Main.tsx": "file",
+                    "User.tsx": "file"
+                },
+                "UserSettings": {
+                    "ChangePassword.tsx": "file",
+                    "DeleteAccount.tsx": "file",
+                    "DeleteConfirmation.tsx": "file",
+                    "UserInformation.tsx": "file"
+                },
+                "theme-provider.tsx": "file",
+                "ui": {
+                    "alert.tsx": "file",
+                    "avatar.tsx": "file",
+                    "badge.tsx": "file",
+                    "button-group.tsx": "file",
+                    "button.tsx": "file",
+                    "card.tsx": "file",
+                    "checkbox.tsx": "file",
+                    "dialog.tsx": "file",
+                    "dropdown-menu.tsx": "file",
+                    "form.tsx": "file",
+                    "input.tsx": "file",
+                    "label.tsx": "file",
+                    "loading-button.tsx": "file",
+                    "pagination.tsx": "file",
+                    "password-input.tsx": "file",
+                    "select.tsx": "file",
+                    "separator.tsx": "file",
+                    "sheet.tsx": "file",
+                    "sidebar.tsx": "file",
+                    "skeleton.tsx": "file",
+                    "sonner.tsx": "file",
+                    "table.tsx": "file",
+                    "tabs.tsx": "file",
+                    "tooltip.tsx": "file"
+                }
+            },
+            "hooks": {
+                "useAuth.ts": "file",
+                "useCopyToClipboard.ts": "file",
+                "useCustomToast.ts": "file",
+                "useMobile.ts": "file"
+            },
+            "lib": {
+                "utils.ts": "file"
+            },
+            "main.tsx": "file",
+            "routeTree.gen.ts": "file",
+            "utils.ts": "file",
+            "vite-env.d.ts": "file",
+            "routes": {
+                "__root.tsx": "file",
+                "_layout.tsx": "file",
+                "login.tsx": "file",
+                "recover-password.tsx": "file",
+                "reset-password.tsx": "file",
+                "signup.tsx": "file",
+                "_layout": {
+                    "admin.tsx": "file",
+                    "index.tsx": "file",
+                    "items.tsx": "file",
+                    "settings.tsx": "file"
+                }
+            }
+        },
+        "tests": {
+            "admin.spec.ts": "file",
+            "auth.setup.ts": "file",
+            "config.ts": "file",
+            "items.spec.ts": "file",
+            "login.spec.ts": "file",
+            "reset-password.spec.ts": "file",
+            "sign-up.spec.ts": "file",
+            "user-settings.spec.ts": "file",
+            "utils": {
+                "mailcatcher.ts": "file",
+                "privateApi.ts": "file",
+                "random.ts": "file",
+                "user.ts": "file"
+            }
+        }
+    },
+    "hooks": {
+        "post_gen_project.py": "file"
+    },
+    "scripts": {
+        "add_latest_release_date.py": "file",
+        "generate-client.sh": "file",
+        "test-local.sh": "file",
+        "test.sh": "file"
+    }
+}
